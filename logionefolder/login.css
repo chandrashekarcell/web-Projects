@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.loginpage {
+    margin: auto;
+    border: solid 1px black;
+    background-image: linear-gradient(to top left ,rgb(0, 0, 0) 50%,white 50%
+    );
+    width: 500px;
+    height: 300px;
+ 
+
+}
+.formtage h1{
+    text-align: center;
+    text-decoration: dotted;
+}
+.formtage{
+
+    border: solid 1px rgb(255, 249, 249);
+    background-color: rgb(255, 238, 0);
+   
+    width: 500px;
+    height: 300px;
+    border-radius: 0% 100%;
+    
+    animation: anime 4s infinite;
+
+
+}
+@keyframes anime {
+    50%{
+        border-radius: 100% 0%;
+
+    }
+    
+}
+
+.loginpage form input{
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+  
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+  
+   
+}
+input::placeholder{
+color: ta;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.loginpage form h1{
+    margin-left: 170px;
+}

@@ -1,0 +1,22 @@
+table{
+    height: 60vh;
+    width: 30%;
+    margin: 10px auto;
+}
+input{
+    height: 20px;
+    width: 20vw;
+}
+td,th{
+    height:10vh ;
+    width: 10vw;
+}
+tbody,abc{
+    th,td{
+        border-radius: 10px;
+        height: 50px;
+        width: 100px;
+
+    }
+   
+}
